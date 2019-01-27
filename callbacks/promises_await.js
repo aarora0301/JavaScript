@@ -13,6 +13,4 @@ async function print(){
     console.log("third delay");
     await delay(100,"third call finished");
 
-}
-
-print();
+} print();

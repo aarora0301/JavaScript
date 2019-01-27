@@ -10,5 +10,4 @@ function delay(ms,str,end){
         .then(()=>delay(2,"Second Timeout","Second call Finished"))
         .then(()=>delay(3,"Third Timeout","Third call Finished"));
     }
-
-    print();
+ print();

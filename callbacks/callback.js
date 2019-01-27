@@ -16,5 +16,4 @@ console.log("start!");
 
     console.log('100 milliseconds have passed');
    }
-
-   testCallback();
+    testCallback();
