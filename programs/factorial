@@ -1,0 +1,51 @@
+//assign function as a value to a variable : first class function
+var getfactorial=function(N){
+let result=1;
+if(N<0)
+result= "Invalid Number";
+else if (N===0)
+result= 1;
+else {
+    for(let i=2;i<=N;i++)
+       result*=i;
+      }
+return result;
+}
+console.log(getfactorial(5));
+
+// create stand alone function
+function factorial(N){
+let result=1;
+if(N<0)
+result= "Invalid Number";
+else if (N===0)
+result= 1;
+else {
+    for(let i=2;i<=N;i++)
+       result*=i;
+      }
+return result;
+}
+console.log(factorial(10));
+
+//calling method inside method
+function printResult(result){
+console.log(result);
+}
+
+function factorial1(N){
+let result=1;
+if(N<0)
+result= "Invalid Number";
+else if (N===0)
+result= 1;
+else {
+    for(let i=2;i<=N;i++)
+       result*=i;
+      }
+printResult(result);
+}
+
+factorial1(5);
+
+
