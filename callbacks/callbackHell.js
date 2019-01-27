@@ -14,5 +14,4 @@ function print(){
         },callStack("second call finished"),2);
     },callStack("first call finished"),9);
 }
-
 print();

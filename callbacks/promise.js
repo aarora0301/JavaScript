@@ -5,11 +5,9 @@ function delay(ms,str,end){
         setTimeout(resolve,ms);
     })
 }
-
-    function print(){
+   function print(){
         delay(1,"First Timeout","First call finished")
         .then(()=>delay(2,"Second Timeout","Second call Finished"))
         .then(()=>delay(3,"Third Timeout","Third call Finished"));
     }
-
-    print();
+ print();
