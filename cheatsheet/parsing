@@ -1,0 +1,11 @@
+Convert string to an Integer:
+Syntax:parseInt(String)
+
+var a = parseInt("007");
+The above function converts the string "007" to an integer 7. If the first character in the string can't be converted into a number, then it returns NaN.
+
+Convert string to any base:
+Syntax:parseInt(string, radix);
+
+var a = parseInt("11", 2);
+The radix variable says that "11" is in the binary system, or base 2. This example converts the string "11" to an integer 3.
